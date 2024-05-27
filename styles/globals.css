@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* tailwind문법으로 css를 커스텀한다. */
+body {
+    @apply bg-zinc-900 h-full overflow-x-hidden;
+}
+
+#__next {
+    @apply h-full;
+
+}
+html {
+    @apply h-full;
+}
